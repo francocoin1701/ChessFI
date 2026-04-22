@@ -256,7 +256,7 @@ function ChainlinkSection({ t }) {
 }
 
 export default function LandingPage({ onLogin }) {
-  const [lang, setLang] = useState('es');
+  const [lang, setLang] = useState('en');
   const [heroVisible, setHeroVisible] = useState(false);
   const [btnHover, setBtnHover] = useState(false);
 
