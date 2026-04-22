@@ -5,7 +5,7 @@ const phasesEs = [
     phase: "Fase 01",
     status: "active",
     title: "Testnet — Sepolia",
-    period: "2025 Q1",
+    period: "2026 Q1",
     desc: "Lanzamiento en testnet con el contrato inteligente completo, árbitro de IA via Chainlink CRE y frontend funcional. Validación del modelo con partidas reales.",
     items: [
       "Contrato auditado en Ethereum Sepolia",
@@ -19,7 +19,7 @@ const phasesEs = [
     phase: "Fase 02",
     status: "upcoming",
     title: "Mainnet + NFTs de entrada",
-    period: "2025 Q3",
+    period: "2027 Q3",
     desc: "Deploy en mainnet con apuestas reales. Introducción de NFTs como entradas para torneos exclusivos — poseer el NFT es el único requisito para participar.",
     items: [
       "Deploy en Ethereum mainnet",
@@ -33,7 +33,7 @@ const phasesEs = [
     phase: "Fase 03",
     status: "upcoming",
     title: "Expansión multichain",
-    period: "2026 Q1",
+    period: "2028 Q1",
     desc: "ChessFi disponible desde cualquier cadena. Jugadores en Base, Polygon, Arbitrum o Avalanche pueden apostar contra alguien en Ethereum — el contrato central recibe fondos de cualquier red.",
     items: [
       "Integración con Chainlink CCIP",
@@ -47,7 +47,7 @@ const phasesEs = [
     phase: "Fase 04",
     status: "upcoming",
     title: "Liga descentralizada",
-    period: "2026 Q3",
+    period: "2028 Q3",
     desc: "Una liga mundial de ajedrez on-chain. Rankings por ELO en cadena, temporadas con prize pools comunitarios, staking para validar partidas y gobernanza por token.",
     items: [
       "Token de gobernanza ChessFi",
