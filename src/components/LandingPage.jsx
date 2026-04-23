@@ -5,6 +5,7 @@ import en from "../i18n/en";
 import HowItWorks from "./HowItWorks";
 import Security from "./Security";
 import Roadmap from "./RoadMap";
+import Team from "./Team";
 
 const LANGS = { es, en };
 
@@ -525,6 +526,9 @@ export default function LandingPage({ onLogin }) {
         backgroundColor: 'rgba(37,99,235,0.02)'
       }}>
         <ChainlinkSection t={t} />
+      </div>
+      <div style={{ position: 'relative', zIndex: 10, borderTop: '1px solid #0f0f0f' }}>
+        <Team lang={lang} />
       </div>
       {/* HOW IT WORKS */}
       <div id='how' style={{ position: 'relative', zIndex: 10, borderTop: '1px solid #0f0f0f' }}>
